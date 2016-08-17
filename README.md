@@ -2,11 +2,11 @@
 ©2016 Niantic, Inc. ©2016 Pokémon. ©1995–2016 Nintendo / Creatures Inc. / GAME FREAK inc. © 2016 Pokémon/Nintendo Pokémon and Pokémon character names are trademarks of Nintendo. The Google Maps Pin is a trademark of Google Inc. and the trade dress in the product design is a trademark of Google Inc. under license to The Pokémon Company. Other trademarks are the property of their respective owners.
 [Privacy Policy](http://www.pokemon.com/us/privacy-policy/)
 
-[PokemonGo-Bot](https://github.com/PokemonGoF/PokemonGo-Bot) is intended for academic purposes and should not be used to play the game *PokemonGo* as it violates the TOS and is unfair to the community. Use the bot **at your own risk**.
+[Pokemon-Go-Ubuntu-Bot](https://github.com/PokemonGoF/Pokemon-Go-Ubuntu-Bot) is intended for academic purposes and should not be used to play the game *PokemonGo* as it violates the TOS and is unfair to the community. Use the bot **at your own risk**.
 
 [PokemonGoF](https://github.com/PokemonGoF) does not support the use of 3rd party apps or apps that violate the TOS.
 
-# PokemonGo-Bot
+# Pokemon-Go-Ubuntu-Bot
 PokemonGo bot is a project created by the [PokemonGoF](https://github.com/PokemonGoF) team.
 
 The project is currently setup in two main branches. 
@@ -15,23 +15,23 @@ The project is currently setup in two main branches.
 
 ## Support
 ###Configuration issues/help
-If you need any help please don't create an issue as we have a great community on Slack. You can count on the community in [#help](https://pokemongo-bot.slack.com/messages/help/) channel.
- - [Click here to signup (first time only)](https://pokemongo-bot.herokuapp.com) 
- - [Join if you're already a member](https://pokemongo-bot.slack.com/messages/general/). 
+If you need any help please don't create an issue as we have a great community on Slack. You can count on the community in [#help](https://Pokemon-Go-Ubuntu-Bot.slack.com/messages/help/) channel.
+ - [Click here to signup (first time only)](https://Pokemon-Go-Ubuntu-Bot.herokuapp.com) 
+ - [Join if you're already a member](https://Pokemon-Go-Ubuntu-Bot.slack.com/messages/general/). 
 
-###[Bugs / Issues](https://github.com/PokemonGoF/PokemonGo-Bot/issues?q=is%3Aissue+sort%3Aupdated-desc)
-If you discover a bug in the bot, please [search our issue tracker](https://github.com/PokemonGoF/PokemonGo-Bot/issues?q=is%3Aissue+sort%3Aupdated-desc) first. If it hasn't been reported, please [create a new issue](https://github.com/PokemonGoF/PokemonGo-Bot/issues/new) and ensure you follow the template guide so that our team can assist you as quickly as possible.
+###[Bugs / Issues](https://github.com/PokemonGoF/Pokemon-Go-Ubuntu-Bot/issues?q=is%3Aissue+sort%3Aupdated-desc)
+If you discover a bug in the bot, please [search our issue tracker](https://github.com/PokemonGoF/Pokemon-Go-Ubuntu-Bot/issues?q=is%3Aissue+sort%3Aupdated-desc) first. If it hasn't been reported, please [create a new issue](https://github.com/PokemonGoF/Pokemon-Go-Ubuntu-Bot/issues/new) and ensure you follow the template guide so that our team can assist you as quickly as possible.
 
-###[Feature Requests](https://github.com/PokemonGoF/PokemonGo-Bot/labels/Feature%20Request)
-If you have a great idea to improve the bot, please [search our feature tracker](https://github.com/PokemonGoF/PokemonGo-Bot/labels/Feature%20Request) first to ensure someone else hasn't already come up with the same great idea.  If it hasn't been requested, please [create a new request](https://github.com/PokemonGoF/PokemonGo-Bot/issues/new) and ensure you follow the template guide so that it doesnt get lost with the bug reports. 
+###[Feature Requests](https://github.com/PokemonGoF/Pokemon-Go-Ubuntu-Bot/labels/Feature%20Request)
+If you have a great idea to improve the bot, please [search our feature tracker](https://github.com/PokemonGoF/Pokemon-Go-Ubuntu-Bot/labels/Feature%20Request) first to ensure someone else hasn't already come up with the same great idea.  If it hasn't been requested, please [create a new request](https://github.com/PokemonGoF/Pokemon-Go-Ubuntu-Bot/issues/new) and ensure you follow the template guide so that it doesnt get lost with the bug reports. 
 While you're there vote on other feature requests to let the devs know what is most important to you.
 
-###[Pull Requests](https://github.com/PokemonGoF/PokemonGo-Bot/pulls)
+###[Pull Requests](https://github.com/PokemonGoF/Pokemon-Go-Ubuntu-Bot/pulls)
 If you'd like to make your own changes, make sure you follow the pull request template, and ensure your PR is made against the 'dev' branch
 
 ## Table of Contents
-- [Installation](https://github.com/PokemonGoF/PokemonGo-Bot/blob/dev/docs/installation.md)
-- [Documentation](https://github.com/PokemonGoF/PokemonGo-Bot/blob/dev/docs/)
+- [Installation](https://github.com/PokemonGoF/Pokemon-Go-Ubuntu-Bot/blob/dev/docs/installation.md)
+- [Documentation](https://github.com/PokemonGoF/Pokemon-Go-Ubuntu-Bot/blob/dev/docs/)
 - [Features](#features)
 - [Credits](#credits)
 
@@ -49,7 +49,7 @@ If you'd like to make your own changes, make sure you follow the pull request te
 - [x] Adjust delay between Pokemon capture & Transfer as per configuration
 - [x] Hatch eggs
 - [x] Incubate eggs
-- [ ] [Standalone Desktop Application] (https://github.com/PokemonGoF/PokemonGo-Bot-Desktop)
+- [ ] [Standalone Desktop Application] (https://github.com/PokemonGoF/Pokemon-Go-Ubuntu-Bot-Desktop)
 - [ ] Use candy
 - [ ] Inventory cleaner
 
@@ -59,22 +59,15 @@ This bot takes a strong stance against automating gym battles. Botting gyms will
 ## Analytics
 This bot is very popular and has a vibrant community. Because of that, it has become very difficult for us to know how the bot is used and what errors people hit. By capturing small amounts of data, we can prioritize our work better such as fixing errors that happen to a large percentage of our user base, not just a vocal minority.
 
-Our goal is to help inform our decisions by capturing data that helps us get aggregate usage and error reports, not personal information. To view the code that handles analytics in our master branch, you can use this [search link](https://github.com/PokemonGoF/PokemonGo-Bot/search?utf8=%E2%9C%93&q=BotEvent).
+Our goal is to help inform our decisions by capturing data that helps us get aggregate usage and error reports, not personal information. To view the code that handles analytics in our master branch, you can use this [search link](https://github.com/PokemonGoF/Pokemon-Go-Ubuntu-Bot/search?utf8=%E2%9C%93&q=BotEvent).
 
 If there are any concerns with this policy or you believe we are tracking something we shouldn't, please open a ticket in the tracker. The contributors always intend to do the right thing for our users, and we want to make sure we are held to that path.
 
 If you do not want any data to be gathered, you can turn off this feature by setting `health_record` to `false` in your `config.json`.
 
-## Help Needed on [Desktop Version](https://github.com/PokemonGoF/PokemonGo-Bot-Desktop)
+## Donations
+If you really like this bot and would like to donate, you can send Bitcoin donations to 13fiCA9mc7Ev5WfA5omtwfKgcNV6EMih71
 
-
-## Credits
-- [tejado](https://github.com/tejado) many thanks for the API
-- [U6 Group](http://pgoapi.com) for the U6
-- [Mila432](https://github.com/Mila432/Pokemon_Go_API) for the login secrets
-- [elliottcarlson](https://github.com/elliottcarlson) for the Google Auth PR
-- [AeonLucid](https://github.com/AeonLucid/POGOProtos) for improved protos
-- [AHAAAAAAA](https://github.com/AHAAAAAAA/PokemonGo-Map) for parts of the s2sphere stuff
 
 
 [![Analytics](https://ga-beacon.appspot.com/UA-81468120-1/welcome-page-master)](https://github.com/igrigorik/ga-beacon)
