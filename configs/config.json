@@ -1,0 +1,190 @@
+{
+    "auth_service": "ptc",
+    "username": "YOUR_USERNAME",
+    "password": "YOUR_PASSWORD",
+    "location": "New York, Central Park",
+    "gmapkey": "AIzaSyAFePyYZ5nm8T2aKFC2qNmxbF5ERseY38k",
+    "encrypt_location": "",
+    "tasks": [
+      {
+        "type": "HandleSoftBan"
+      },
+      {
+        "type": "SleepSchedule",
+        "config": {
+          "enabled": false,
+          "time": "14:54",
+          "duration":"4:46",
+          "time_random_offset": "01:24",
+          "duration_random_offset": "01:33"
+        }
+      },
+      {
+        "type": "CollectLevelUpReward"
+      },
+      {
+        "type": "IncubateEggs",
+        "config": {
+          "longer_eggs_first": true
+        }
+      },
+      {
+        "type": "UpdateLiveStats",
+        "config": {
+          "enabled": false,
+          "min_interval": 2,
+          "stats": ["username", "uptime", "stardust_earned", "xp_earned", "xp_per_hour", "stops_visited"],
+          "terminal_log": true,
+          "terminal_title": true
+        }
+      },
+      {
+        "type": "TransferPokemon"
+      },
+      {
+        "type": "NicknamePokemon",
+        "config": {
+          "enabled": false,
+          "nickname_template": "{iv_pct}_{iv_ads}"
+        }
+      },
+      {
+        "type": "EvolvePokemon",
+        "config": {
+            "evolve_all": "Caterpie, Weedle, Pidgey, Rattata, Spearow, Psyduck, Poliwag, Slowpoke, Drowzee, Goldeen, Staryu",
+            "first_evolve_by": "cp",
+            "evolve_above_cp": 0,
+            "evolve_above_iv": 0,
+            "logic": "or",
+            "evolve_speed": 25,
+            "use_lucky_egg": false
+        }
+      },
+      {
+        "type": "RecycleItems",
+        "config": {
+          "min_empty_space": 22,
+          "item_filter": {
+            "Pokeball":       { "keep" : 100 },
+            "Potion":         { "keep" : 0 },
+            "Super Potion":   { "keep" : 0 },
+            "Hyper Potion":   { "keep" : 0 },
+	    "Max Potion":     { "keep" : 80 },
+	    "Max Revive":     { "keep" : 40 },
+            "Revive":         { "keep" : 0 },
+            "Razz Berry":     { "keep" : 30 }
+          }
+        }
+      },
+      {
+        "type": "CatchVisiblePokemon"
+      },
+      {
+        "type": "CatchLuredPokemon"
+      },
+      {
+        "type": "SpinFort"
+      },
+      {
+        "type": "MoveToFort",
+        "config": {
+            "lure_attraction": true,
+            "lure_max_distance": 2000
+        }
+      },
+      {
+        "type": "FollowSpiral",
+        "config": {
+          "diameter": 4,
+          "step_size": 60
+        }
+      }
+    ],
+    "map_object_cache_time": 5,
+    "forts": {
+      "avoid_circles": true,
+      "max_circle_size": 50,
+      "cache_recent_forts": true
+    },
+    "websocket_server": false,
+    "walk": 18,
+    "action_wait_min": 1,
+    "action_wait_max": 3,
+    "debug": false,
+    "test": false,
+    "health_record": true,
+    "location_cache": true,
+    "distance_unit": "km",
+    "reconnecting_timeout": 5,
+    "catch_randomize_reticle_factor": 1.0,
+    "catch_randomize_spin_factor": 1.0,
+    "min_ultraball_to_keep": 10,
+    "logging_color": true,
+    "catch": {
+      "any": {"catch_above_cp": 0, "catch_above_iv": 0, "logic": "or"},
+      "// Example of always catching Rattata:": {},
+      "// Rattata": { "always_catch" : true }
+    },
+    "catch_throw_parameters": {
+      "excellent_rate": 1.0,
+      "great_rate": 0,
+      "nice_rate": 0,
+      "normal_rate": 0,
+      "spin_success_rate" : 1.0
+    },
+    "release": {
+      "any": {"release_below_cp": 1600, "release_below_iv": 0.9, "keep_best_cp": 1,"logic": "and"},
+
+		"Gyarados": {"keep_best_cp": 5},
+		"Vaporeon": {"keep_best_cp": 6},
+		"Exeggutor": {"keep_best_cp": 5},
+		"Arcanine": {"keep_best_cp": 3},
+		"Mew": {"keep_best_cp": 5},
+		"Snorlax": {"keep_best_cp": 8},
+		"Dragonite": {"keep_best_cp": 10},
+		"Lapras": {"keep_best_cp": 5},
+		"Moltres": {"keep_best_cp": 5},
+		"Zapdos": {"keep_best_cp": 5},
+		"Mewtwo": {"keep_best_cp": 5},
+		"Articuno": {"keep_best_cp": 5},	
+
+
+
+
+
+
+      "// Example of always releasing Rattata:": {},
+      "// Rattata": {"always_release": true},
+      "// Example of keeping 3 stronger (based on CP) Pidgey:": {},
+      "// Pidgey": {"keep_best_cp": 3},
+      "// Example of keeping 2 stronger (based on IV) Zubat:": {},
+      "// Zubat": {"keep_best_iv": 2},
+      "// Also, it is working with any": {},
+      "// any": {"keep_best_iv": 3},
+      "// Example of keeping the 2 strongest (based on CP) and 3 best (based on IV) Zubat:": {},
+      "// Zubat": {"keep_best_cp": 2, "keep_best_iv": 3}
+    },
+    "vips" : {
+         "Any pokemon put here directly force to use Berry & Best Ball to capture, to secure the capture rate!": {},
+        "any": {"catch_above_cp": 1200, "catch_above_iv": 0.9, "logic": "or" },
+        "Lapras": {},
+        "Moltres": {},
+        "Zapdos": {},
+        "Articuno": {},
+
+        "// S-Tier pokemons (if pokemon can be evolved into tier, list the representative)": {},
+        "Mewtwo": {},
+        "Dragonite": {},
+        "Snorlax": {},
+        "// Mew evolves to Mewtwo": {},
+        "Mew": {},
+        "Arcanine": {},
+        "Vaporeon": {},
+        "Gyarados": {},
+        "Exeggutor": {},
+        "Muk": {},
+        "Weezing": {},
+        "Flareon": {}
+
+    }
+}
