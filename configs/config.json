@@ -65,13 +65,13 @@
         "config": {
           "min_empty_space": 22,
           "item_filter": {
-            "Pokeball":       { "keep" : 100 },
-            "Potion":         { "keep" : 0 },
-            "Super Potion":   { "keep" : 0 },
-            "Hyper Potion":   { "keep" : 0 },
-	    "Max Potion":     { "keep" : 80 },
-	    "Max Revive":     { "keep" : 40 },
-            "Revive":         { "keep" : 0 },
+            "Pokeball":       { "keep" : 80 },
+            "Potion":         { "keep" : 10 },
+            "Super Potion":   { "keep" : 20 },
+            "Hyper Potion":   { "keep" : 30 },
+			"Max Potion":     { "keep" : 40 },
+			"Max Revive":     { "keep" : 30 },
+            "Revive":         { "keep" : 20 },
             "Razz Berry":     { "keep" : 30 }
           }
         }
