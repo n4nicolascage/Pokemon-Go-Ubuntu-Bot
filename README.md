@@ -6,7 +6,7 @@
 
 
 # Pokemon-Go-Ubuntu-Bot
-PokemonGo bot is a project created by the [PokemonGoF](https://github.com/PokemonGoF) team.
+PokemonGo bot is a project created by our team.
 
 The project is currently setup in two main branches. 
 - `dev` also known as `beta` - This is where the latest features are, but you may also experience some issues with stability/crashes
@@ -50,8 +50,8 @@ If there are any concerns with this policy or you believe we are tracking someth
 
 If you do not want any data to be gathered, you can turn off this feature by setting `health_record` to `false` in your `config.json`.
 
-## [Stepwise Setup Tutorial on Linux]
-Pokemon Go On ubuntu (https://pokemon-go-ubuntu-bot.blogspot.com)
+## Stepwise Setup Tutorial on Linux
+https://pokemon-go-ubuntu-bot.blogspot.com
 
 
 ## Donations
